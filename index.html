@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanks</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      button {
+        border: 0;
+        padding: 15px;
+        background-color: transparent;
+        color: white;
+        border: 3px solid #333;
+        color: #333;
+        letter-spacing: 5px;
+        border-radius: 0.5rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.3s all ease-in-out;
+        font-size: 20px;
+        font-weight: 900;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+      }
+      button:hover {
+        background-color: #333;
+        color: white;
+      }
+      h1 {
+        letter-spacing: 0.25rem;
+        font-weight: 900;
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Background Color:
+      <span class="color" style="color: hsl(205, 78%, 60%)">#FFF</span>
+    </h1>
+    <button id="btn">Click Me</button>
+    <script src="main.js"></script>
+  </body>
+</html>
